@@ -51,7 +51,7 @@
       </div>
       <div class="container jumbotron-content">
         <h1 class="jumbotron-heading">ADA&nbsp;Insurance Powered&nbsp;by&nbsp;Alliant</h1>
-        <h2 class="pt-1">Designed&nbsp;for&nbsp;dentists. Endorsed&nbsp;by&nbsp;the&nbsp;ADA.</h2>
+        <h2 class="pt-1"><strong>Designed&nbsp;for&nbsp;dentists. Endorsed&nbsp;by&nbsp;the&nbsp;ADA.</strong></h2>
         <!-- <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
           <p>
             <a href="#" class="btn btn-primary my-2">Main call to action</a>

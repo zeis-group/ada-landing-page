@@ -48,7 +48,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-12 text-center">
-            The American Dental Association has partnered with Alliant Insurance Services to offer ADA members enhanced insurance solutions – helping you protect yourself, your loved ones, and your practice.
+            The American Dental Association has joined forces with Alliant Insurance Services to bring members exclusive access to a range of insurance coverage - helping you protect yourself, your loved ones, and your practice.
           </div>
         </div>
       </div>
@@ -81,11 +81,10 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4">
-              <img class="card-img-top" src="images/icon-stages.png" alt="icon-stages">
+              <img class="card-img-top" src="images/icon-exclusive.png" alt="icon-exclusive">
               <div class="card-body">
-                <p class="card-text"><strong>Comprehensive Solutions</strong></p>
-                <p class="card-text">From personal to professional, this insurance helps protect you at every stage of
-                  your career and&nbsp;life.
+                <p class="card-text"><strong>Exclusively for ADA members</strong></p>
+                <p class="card-text">Coverage at member-only group rates not available to the general public
                 </p>
               </div>
             </div>
@@ -109,7 +108,7 @@
                     <div class="py-3"><a href="tel:3146021702"><img src="images/icon-phone-touch.svg" alt="" style="width:80px;"></a></div>
                 </div>
                 <div class="col-md-9 d-flex align-items-center">
-                  <p>Have questions today? Call us at [insert phone number]. Our team is ready to&nbsp;help!</p>
+                  <p>Have questions today? Call us at [insert phone number]. Our&nbsp;team is&nbsp;ready to&nbsp;help!</p>
                 </div>
               </div>
             </div>

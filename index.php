@@ -83,8 +83,8 @@
             <div class="card mb-4">
               <img class="card-img-top" src="images/icon-exclusive.png" alt="icon-exclusive">
               <div class="card-body">
-                <p class="card-text"><strong>Exclusively for ADA members</strong></p>
-                <p class="card-text">Coverage at member-only group rates not available to the general public
+                <p class="card-text"><strong>Exclusively for ADA Members</strong></p>
+                <p class="card-text">Coverage at member-only group rates not available to the general public.
                 </p>
               </div>
             </div>

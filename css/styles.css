@@ -110,11 +110,16 @@ body{
     text-align: center;
 }
 
+.callout {
+  background-color: rgba(0, 0, 0, .05);
+}
+
 .callout .box{
   text-align: center;
   font-size: 1.2rem;
   color:#000000;
-  background-color: #f0b323 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #339933;
 }
 
 footer {

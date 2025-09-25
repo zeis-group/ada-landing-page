@@ -40,20 +40,26 @@
       </div>
       <div class="container jumbotron-content">
         <h1 class="jumbotron-heading">ADA&nbsp;Insurance Powered&nbsp;by&nbsp;Alliant</h1>
-        <h2 class="pt-1"><strong>Designed&nbsp;for&nbsp;dentists. Endorsed&nbsp;by&nbsp;the&nbsp;ADA.</strong></h2>
+        <h2 class="pt-1"><strong>Designed&nbsp;for&nbsp;dentists. Approved&nbsp;by&nbsp;the&nbsp;ADA.</strong></h2>
       </div>
     </section>
 
-    <div class="py-5 bg-light leadin">
+    <div class="bg-light leadin">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="py-5 px-3 px-md-5 row justify-content-center">
           <div class="col-md-12 text-center">
-            The American Dental Association has joined forces with Alliant Insurance Services to bring members exclusive access to a range of insurance coverage - helping you protect yourself, your loved ones, and your practice.
+            The American Dental Association has joined forces with Alliant Insurance Services to bring members exclusive access to a range of insurance coverage - helping you protect yourself, your loved ones and your practice.
+          </div>
+        </div>
+      </div>
+      <div class="container" style="background-color: rgba(0, 0, 0, 0.25);font-size: .85em;">
+        <div class="py-5 px-3 px-md-5 row justify-content-center">
+          <div class="col-md-12 text-center">           
+            In 2025, the ADA Members Insurance Plan added Alliant, the 5th largest insurance broker in the US. That means coverage from the same reliable carrier coupled with support from the experts at Alliant.
           </div>
         </div>
       </div>
     </div>
-
 
     <div class="pt-5 pb-4 bg-light">
       <div class="container">
@@ -63,8 +69,8 @@
             <div class="card mb-4">
               <img class="card-img-top" src="images/icon-tooth.png" alt="icon-tooth">
               <div class="card-body">
-                <p class="card-text"><strong>Supported by the ADA</strong></p>
-                <p class="card-text">The only insurance coverage endorsed by the ADA, tailored specifically for dentists and dental&nbsp;students.
+                <p class="card-text"><strong>Vetted by the ADA</strong></p>
+                <p class="card-text">The only insurance coverage approved by the ADA, tailored specifically for dentists and dental&nbsp;students.
                 </p>
               </div>
             </div>
@@ -83,8 +89,8 @@
             <div class="card mb-4">
               <img class="card-img-top" src="images/icon-exclusive.png" alt="icon-exclusive">
               <div class="card-body">
-                <p class="card-text"><strong>Exclusively for ADA Members</strong></p>
-                <p class="card-text">Coverage at member-only group rates not available to the general public.
+                <p class="card-text"><strong>Exclusively for ADA members</strong></p>
+                <p class="card-text">Coverage at member-only group rates not available to the public.
                 </p>
               </div>
             </div>

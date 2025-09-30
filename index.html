@@ -60,13 +60,13 @@
           <div class="col-md-6">
             <p>
               <strong>What's changing?</strong><br>
-              The ADA Members Insurance Plan is introducing Alliant Insurance Services, the 5th largest insurance broker in the US, to enhance and facilitate the growth of the ADA suite of insurance products. The Alliant team is standing by to assist with any needs you have about the coverages available exclusively to ADA members.
+              The ADA Members Insurance Plan is introducing Alliant Insurance Services, the 5th largest insurance broker in the US, to enhance the ADA suite of insurance products. The Alliant team is standing by to assist with any needs you have about the coverages available exclusively to ADA members.
             </p>
           </div>
           <div class="col-md-6">
             <p>
               <strong>What's staying the same?</strong><br>
-              All coverage are still underwritten by Protective Life, and there are no changes for current policyholders due to this new relationship. The program still has the same reliable carrier in Protective coupled with the insurance expertise Alliant offers to ADA members.
+              All coverage is still underwritten by Protective Life, and there are no changes for current policyholders due to this new relationship. The program still has the same reliable carrier in Protective coupled with the insurance expertise Alliant offers to ADA members.
             </p>
           </div>
         </div>

@@ -40,7 +40,7 @@
       </div>
       <div class="container jumbotron-content">
         <h1 class="jumbotron-heading">ADA&nbsp;Insurance Powered&nbsp;by&nbsp;Alliant</h1>
-        <h2 class="pt-1"><strong>Designed&nbsp;for&nbsp;dentists. Approved&nbsp;by&nbsp;the&nbsp;ADA.</strong></h2>
+        <h2 class="pt-1"><strong>Designed&nbsp;for&nbsp;dentists. Chosen&nbsp;by&nbsp;the&nbsp;ADA.</strong></h2>
       </div>
     </section>
 
@@ -81,8 +81,8 @@
             <div class="card mb-4">
               <img class="card-img-top" src="images/icon-tooth.png" alt="icon-tooth">
               <div class="card-body">
-                <p class="card-text"><strong>Vetted by the ADA</strong></p>
-                <p class="card-text">The only insurance coverage approved by the ADA, tailored specifically for dentists and dental&nbsp;students.
+                <p class="card-text"><strong>Chosen by the ADA</strong></p>
+                <p class="card-text">The only insurance coverage selected by the ADA, tailored specifically for dentists and dental&nbsp;students.
                 </p>
               </div>
             </div>
@@ -108,6 +108,11 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-12 text-center py-3">
+            <a href="https://ada.protective.com/" class="btn btn-primary btn-lg" role="button" target="_blank" rel="noopener" style="background-color: #339933;border:none;">Explore All ADA Member Coverages Underwritten by Protective</a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -126,7 +131,7 @@
                     <div class="py-3"><a href="tel:3146021702"><img src="images/icon-phone-touch.svg" alt="" style="width:80px;"></a></div>
                 </div>
                 <div class="col-md-9 d-flex align-items-center">
-                  <p>Have questions today? Call us at [insert phone number]. Our&nbsp;team is&nbsp;ready to&nbsp;help!</p>
+                  <p>Have questions today? Call us at 1-866-607-5338. Our&nbsp;team is&nbsp;ready to&nbsp;help!</p>
                 </div>
               </div>
             </div>

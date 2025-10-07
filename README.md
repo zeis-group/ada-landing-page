@@ -23,6 +23,4 @@ In order to "trick" Heroku into serving this static site (it is not an app), we 
 
 ``index.php`` There is no php code to execute, but Heroku will be looking for an index.php page - so we use this as our home page
 
----
 
-## Redeploy to Heroku 20 10/18/21

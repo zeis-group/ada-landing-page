@@ -91,23 +91,39 @@ body{
   max-width: 60rem;
 }
 
+.jumbotron.green {
+  background-color: #339933 !important;
+}
+
+.jumbotron.green h1,
+.jumbotron.green h2,
+.jumbotron.green p {
+  color:#ffffff !important;
+}
+
 .leadin{
   font-size: 1.2rem;
   color:#ffffff;
   background-color: #339933 !important;
 }
 
-.card {
+.cta.green {
+  background-color: #339933 !important;
+  color:#ffffff !important;
+  padding: 1rem;
+}
+
+.card.simple {
   background: none;
   border: none;
 }
 
-.card img {
+.card.simple img {
   width:100px;
   display:block;
   margin: 0 auto;
 }
-.card .card-text {
+.card.simple .card-text {
     font-size: 1.2em;
     text-align: center;
 }
@@ -134,6 +150,25 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checklist li {
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: .5em;
+}
+
+.checklist li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #339933;
+  font-size: large;
+}
 
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */

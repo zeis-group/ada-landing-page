@@ -39,7 +39,7 @@
         </video>
       </div>
       <div class="container jumbotron-content">
-        <h1 class="jumbotron-heading">ADA&nbsp;Insurance Powered&nbsp;by&nbsp;Alliant</h1>
+        <h1 class="jumbotron-heading">ADA&nbsp;Insurance Brokered&nbsp;by&nbsp;Alliant</h1>
         <h2 class="pt-1"><strong>Designed&nbsp;for&nbsp;dentists. Chosen&nbsp;by&nbsp;the&nbsp;ADA.</strong></h2>
       </div>
     </section>

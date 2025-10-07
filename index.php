@@ -110,7 +110,7 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center py-3">
-            <a href="https://ada.protective.com/" class="btn btn-primary btn-lg" role="button" target="_blank" rel="noopener" style="background-color: #339933;border:none;">Explore All ADA Member Coverages Underwritten by Protective</a>
+            <a href="https://ada.protective.com/ada-insurance-plans/ada-members-insurance-plans.aspx" class="btn btn-primary btn-lg" role="button" target="_blank" rel="noopener" style="background-color: #339933;border:none;">Explore All ADA Member Coverages Underwritten by Protective</a>
           </div>
         </div>
       </div>

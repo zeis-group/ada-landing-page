@@ -78,7 +78,7 @@
 
         <div class="row">
           <div class="col-md-4">
-            <div class="card mb-4">
+            <div class="card simple mb-4">
               <img class="card-img-top" src="images/icon-tooth.png" alt="icon-tooth">
               <div class="card-body">
                 <p class="card-text"><strong>Chosen by the ADA</strong></p>
@@ -88,7 +88,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card mb-4">
+            <div class="card simple mb-4">
               <img class="card-img-top" src="images/icon-service.png" alt="icon-service">
               <div class="card-body">
                 <p class="card-text"><strong>Personalized Guidance</strong></p>
@@ -98,7 +98,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card mb-4">
+            <div class="card simple mb-4">
               <img class="card-img-top" src="images/icon-exclusive.png" alt="icon-exclusive">
               <div class="card-body">
                 <p class="card-text"><strong>Exclusively for ADA members</strong></p>

@@ -40,7 +40,7 @@
       </div>
       <div class="container jumbotron-content">
         <h1 class="jumbotron-heading">ADA&nbsp;Insurance Brokered&nbsp;by&nbsp;Alliant</h1>
-        <h2 class="pt-1"><strong>Designed&nbsp;for&nbsp;dentists. Chosen&nbsp;by&nbsp;the&nbsp;ADA.</strong></h2>
+        <h2 class="pt-1"><strong>Designed&nbsp;for&nbsp;dentists. Chosen&nbsp;by&nbsp;the&nbsp;ADA. Underwritten&nbsp;by&nbsp;Protective.</strong></h2>
       </div>
     </section>
 
@@ -101,9 +101,8 @@
             <div class="card simple mb-4">
               <img class="card-img-top" src="images/icon-exclusive.png" alt="icon-exclusive">
               <div class="card-body">
-                <p class="card-text"><strong>Exclusively for ADA members</strong></p>
-                <p class="card-text">Coverage at member-only group rates not available to the public.
-                </p>
+                <p class="card-text"><strong>Underwritten by Protective</strong></p>
+                <p class="card-text">The ADA Members Insurance Plans are available exclusively to ADA members and offer special members&#8209;only group&nbsp;rates.</p>
               </div>
             </div>
           </div>
@@ -160,7 +159,29 @@
 
   <footer class="text-muted">
     <div class="container">
-      <p>© ADA Insurance | Powered by Alliant</p>
+
+      <div class="footer-legal">
+        <p>
+          The information on this website is not a contract. Protective refers to Protective Life Insurance Company (PLICO) and its affiliates, including Protective Life and Annuity Company (PLAIC). PLICO, founded in 1907, is located in Omaha, NE and is licensed in all states excluding New York. PLAIC is located in Birmingham, AL, and is licensed in New York.
+        </p>
+        <p>
+          Protective® is a registered trademark of PLICO. The Protective trademarks, logos and service marks are property of PLICO and are protected by copyright, trademark, and/or other proprietary rights and laws. ADA® is a registered trademark of the American Dental Association (ADA). ADA Members Insurance Plans® is a registered service mark of the ADA. The ADA trademarks, logos, and service marks are the property of the ADA and are used by Protective with permission. In some states, the ADA is entitled to receive royalties from the ADA Members Insurance Plans.
+        </p>
+        <p>
+          ADA Members Insurance Plans and ADA Insurance refers to the group life, disability, and supplemental medical policies issued by PLICO and PLAIC to the ADA.
+        </p>
+        <p>
+          Policies issued by PLICO in all states except New York: Term Life Insurance (TL-P 1-21), Student Term Life Insurance (TL-ST-P 2-21), Universal Life Insurance (TP-P 11-20), Level Term Insurance (LT-P 1-21), Disability Income Protection Insurance (IP-P 7-20), Office Overhead Expense Disability Insurance (OE-P 9-20), Student Disability Income Insurance (ST-P 8-20), Hospital Indemnity Insurance (HI-P 11-20) not available in New Mexico, and Critical Illness Insurance (CI-P 7-20).
+        </p>
+        <p>
+          In New York, policies issued by PLAIC: Term Life Insurance<sup>1</sup> (TL-P-NY 1-21), Student Term Life Insurance (TL-ST-P-NY 2-21), Universal Life Insurance (TP-P-NY 2-21), Level Term Life Insurance (LT-P-NY 2-21), Disability Income Protection Insurance (IP-P-NY 12-20), Office Overhead Expense Disability Insurance (OE-P-NY 01-21), Student Disability Income Insurance (ST-P-NY 1-21), Hospital Indemnity Insurance (HI-P-NY 1-21), and Critical Illness Insurance (CI-P-NY).
+        </p>
+        <p>
+          Consult the policy for benefits, riders, limitations, and exclusions. Benefits adjusted for misstatements of age. Benefits are provided under a group policy issued to the ADA. Each Plan participant will receive a Certificate of Insurance explaining the terms and conditions of the policy. An insured must maintain continuous ADA membership to remain eligible for insurance.
+        </p>
+      </div>
+
+      <p class="mt-2">© ADA Insurance | Powered by Alliant</p>
     </div>
   </footer>
 

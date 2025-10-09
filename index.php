@@ -22,7 +22,7 @@
     <div class="navbar navbar-dark bg-dark box-shadow p-3">
       <div class="container d-flex justify-content-between">
         <a href="#" class="navbar-brand d-flex align-items-center">
-          <img src="images/ADA_Insurance_PoweredbyAlliant_Horiz_Rev.svg" alt="ADA Insurance Powered by Alliant Logo"
+          <img src="images/ADA_Insurance_PoweredbyAlliant_Horiz_Rev.svg" alt="ADA Insurance Brokered by Alliant Logo"
             width="200" style="width:200px;display:block;">
         </a>
       </div>
@@ -181,7 +181,7 @@
         </p>
       </div>
 
-      <p class="mt-2">© ADA Insurance | Powered by Alliant</p>
+      <p class="mt-2">© ADA Insurance | Brokered by Alliant</p>
     </div>
   </footer>
 

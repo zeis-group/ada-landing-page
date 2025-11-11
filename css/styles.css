@@ -95,6 +95,10 @@ body{
   background-color: #339933 !important;
 }
 
+.jumbotron.gold {
+  background-color: #ffcc00 !important;
+}
+
 .jumbotron.green h1,
 .jumbotron.green h2,
 .jumbotron.green p {

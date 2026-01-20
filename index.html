@@ -127,7 +127,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-3 d-flex align-items-center justify-content-center">
-                    <div class="py-3"><a href="tel:3146021702"><img src="images/icon-phone-touch.svg" alt="" style="width:80px;"></a></div>
+                    <div class="py-3"><a href="tel:18666075338"><img src="images/icon-phone-touch.svg" alt="" style="width:80px;"></a></div>
                 </div>
                 <div class="col-md-9 d-flex align-items-center">
                   <p>Have questions today? Call us at 1-866-607-5338. Our&nbsp;team is&nbsp;ready to&nbsp;help!</p>

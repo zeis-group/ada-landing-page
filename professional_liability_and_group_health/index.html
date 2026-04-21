@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Professional Liability & Group Health | Alliant</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="../css/styles-alliant.css" rel="stylesheet">
+    
+    <style>
+        .content-card {
+            border-radius: 28px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .lead-form-card {
+            border-radius: 28px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .toggle-button {
+            border-radius: 50px;
+            padding: 12px 20px;
+            border: 1px solid #e2e8f0;
+            background-color: white;
+            color: #374151;
+            font-weight: 400;
+            font-size: 14px;
+        }
+        
+        .toggle-button.active {
+            background-color: #188290;
+            color: white;
+            border-color: #188290; /* Alliant color */
+        }
+        
+        .form-control, .form-select {
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            padding: 8px 12px;
+        }
+        
+        .btn-primary-custom {
+            background-color: #188290; /* Alliant color */
+            border-color: #188290; /* Alliant color */
+            color: white;
+            border-radius: 0;
+            padding: 12px 24px;
+            font-weight: 400;
+            font-size: 18px;
+        }
+        
+        .btn-primary-custom:hover {
+            background-color: #143a67;
+            border-color: #143a67;
+        }
+        
+        .check-icon {
+            color: #0F2D52;
+            margin-right: 8px;
+            margin-top: 2px;
+        }
+        
+        .text-slate-600 {
+            color: #475569;
+        }
+        
+        .text-slate-700 {
+            color: #334155;
+        }
+        
+        .text-slate-900 {
+            color: #0f172a;
+        }
+        
+        .bg-light-custom {
+            background-color: #F6F8FB;
+        }
+    </style>
+</head>
+
+<body class="bg-light-custom">
+
+    <header>
+        <div class="navbar navbar-dark box-shadow p-5">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+                <!-- <img src="../images/ADA_Insurance_BrokeredbyAlliant_Horiz_RGB.svg"
+                    alt="ADA Insurance Brokered by Alliant Logo" width="200" style="width:200px;display:block;margin:10px;"> -->
+                    <img width="200" alt="Logotype" src="https://alliant.com/media/v4qlw2dm/243655-alliant-website-logo.svg">
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <div class="container py-4">
+            <!-- Toggle Buttons -->
+            <div class="d-flex gap-3 mb-4">
+                <button id="pliBtn" class="toggle-button active" onclick="switchPage('pli')">
+                    Professional Liability
+                </button>
+                <button id="healthBtn" class="toggle-button" onclick="switchPage('health')">
+                    Group Health
+                </button>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="row g-4">
+                <!-- Lead Form Column -->
+                <div class="col-lg-6">
+                    <div class="card lead-form-card border-0">
+                        <div class="card-body p-4 p-md-5">
+                            <h2 id="formTitle" class="text-slate-900 fs-3 mb-4">
+                                Learn more about professional liability coverage
+                            </h2>
+
+                            <form>
+                                <div class="row g-3 mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-medium">First Name</label>
+                                        <input type="text" class="form-control" placeholder="Jane">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-medium">Last Name</label>
+                                        <input type="text" class="form-control" placeholder="Doe">
+                                    </div>
+                                </div>
+
+                                <div class="row g-3 mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-medium">Email</label>
+                                        <input type="email" class="form-control" placeholder="jane@practice.com">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-medium">Phone</label>
+                                        <input type="tel" class="form-control" placeholder="(555) 555-5555">
+                                    </div>
+                                </div>
+
+                                <div class="row g-3 mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-medium">Practice Name</label>
+                                        <input type="text" class="form-control" placeholder="Bright Smile Dental">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-medium">State</label>
+                                        <select class="form-select">
+                                            <option selected>Select state</option>
+                                            <option value="ca">California</option>
+                                            <option value="il">Illinois</option>
+                                            <option value="ny">New York</option>
+                                            <option value="tx">Texas</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row g-3 mb-3">
+                                    <div class="col-md-6">
+                                        <label id="practiceTypeLabel" class="form-label fw-medium">Practice Type</label>
+                                        <select class="form-select">
+                                            <option selected>Select</option>
+                                            <option value="1">1–5</option>
+                                            <option value="2">6–10</option>
+                                            <option value="3">11–25</option>
+                                            <option value="4">26+</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-medium">Coverage Status</label>
+                                        <select class="form-select">
+                                            <option selected>Select</option>
+                                            <option value="shopping">Shopping</option>
+                                            <option value="existing">Have coverage</option>
+                                            <option value="new">Need new coverage</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label fw-medium">Additional Details</label>
+                                    <textarea class="form-control" rows="3" placeholder="Tell us more about your needs"></textarea>
+                                </div>
+
+                                <button id="ctaButton" type="submit" class="btn btn-primary-custom w-100">
+                                    Request information
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Column -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column gap-4">
+                        <!-- Title -->
+                        <div>
+                            <h1 id="pageTitle" class="text-slate-900 display-6">
+                                Professional Liability Insurance
+                            </h1>
+                        </div>
+
+                        <!-- Why this coverage matters -->
+                        <div class="card content-card border-0">
+                            <div class="card-body p-4 p-md-5">
+                                <h2 class="text-slate-900 fs-4 mb-3">
+                                    Why this coverage matters
+                                </h2>
+                                <p id="introText" class="text-slate-600 lh-lg">
+                                    Professional liability coverage helps protect dentists and dental practices from the financial impact of claims related to patient care. Having the right coverage in place can support both peace of mind and long-term practice stability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Why Alliant -->
+                        <div class="card content-card border-0">
+                            <div class="card-body p-4 p-md-5">
+                                <h2 class="text-slate-900 fs-4 mb-3">
+                                    Why Alliant
+                                </h2>
+                                <p id="expertiseText" class="text-slate-600 lh-lg mb-4">
+                                    Alliant works with dental professionals to evaluate exposures, compare carrier options, and structure coverage aligned to real-world practice needs. As a full-service broker, Alliant helps ADA members make informed decisions with confidence.
+                                </p>
+
+                                <div id="highlightsList" class="d-flex flex-column gap-3">
+                                    <div class="d-flex align-items-start">
+                                        <span class="check-icon">✓</span>
+                                        <p class="text-slate-700 small mb-0">Support for dentists and practice owners</p>
+                                    </div>
+                                    <div class="d-flex align-items-start">
+                                        <span class="check-icon">✓</span>
+                                        <p class="text-slate-700 small mb-0">Guidance on coverage needs and structure</p>
+                                    </div>
+                                    <div class="d-flex align-items-start">
+                                        <span class="check-icon">✓</span>
+                                        <p class="text-slate-700 small mb-0">Broker expertise across carrier options</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+        // Page theme data
+        const pageThemes = {
+            pli: {
+                title: "Professional Liability Insurance",
+                intro: "Professional liability coverage helps protect dentists and dental practices from the financial impact of claims related to patient care. Having the right coverage in place can support both peace of mind and long-term practice stability.",
+                expertise: "Alliant works with dental professionals to evaluate exposures, compare carrier options, and structure coverage aligned to real-world practice needs. As a full-service broker, Alliant helps ADA members make informed decisions with confidence.",
+                highlights: [
+                    "Support for dentists and practice owners",
+                    "Guidance on coverage needs and structure",
+                    "Broker expertise across carrier options"
+                ],
+                formTitle: "Learn more about professional liability coverage",
+                cta: "Request information",
+                practiceTypeLabel: "Practice Type"
+            },
+            health: {
+                title: "Group Health Insurance",
+                intro: "Group health insurance can help dental practices attract and retain talent while supporting the wellbeing of their team. Selecting the right plan requires balancing cost, coverage, and administrative simplicity.",
+                expertise: "Alliant helps employers evaluate plan structures, compare market options, and design benefits strategies aligned to their practice goals. ADA members can leverage Alliant's brokerage expertise to find the right fit.",
+                highlights: [
+                    "Support for employer-sponsored plans",
+                    "Guidance for small and growing practices",
+                    "Broker-led review of available options"
+                ],
+                formTitle: "Learn more about group health insurance",
+                cta: "Connect with Alliant",
+                practiceTypeLabel: "Number of Employees"
+            }
+        };
+
+        let currentPage = 'pli';
+
+        function switchPage(pageKey) {
+            currentPage = pageKey;
+            const theme = pageThemes[pageKey];
+
+            // Update toggle buttons
+            document.getElementById('pliBtn').classList.toggle('active', pageKey === 'pli');
+            document.getElementById('healthBtn').classList.toggle('active', pageKey === 'health');
+
+            // Update content
+            document.getElementById('pageTitle').textContent = theme.title;
+            document.getElementById('formTitle').textContent = theme.formTitle;
+            document.getElementById('introText').textContent = theme.intro;
+            document.getElementById('expertiseText').textContent = theme.expertise;
+            document.getElementById('ctaButton').textContent = theme.cta;
+            document.getElementById('practiceTypeLabel').textContent = theme.practiceTypeLabel;
+
+            // Update highlights list
+            const highlightsList = document.getElementById('highlightsList');
+            highlightsList.innerHTML = theme.highlights.map(highlight => `
+                <div class="d-flex align-items-start">
+                    <span class="check-icon">✓</span>
+                    <p class="text-slate-700 small mb-0">${highlight}</p>
+                </div>
+            `).join('');
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            switchPage('pli');
+        });
+    </script>
+
+</body>
+
+</html>

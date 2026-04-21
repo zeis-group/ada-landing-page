@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Raleway", sans-serif;
+}
+/* Make the jumbotron background video fill the entire section and center it */
+.jumbotron {
+  position: relative;
+  padding: 0;
+  min-height: 350px;
+  overflow: hidden;
+}
+
+.jumbotron-bg-video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.jumbotron-bg-video-wrapper video {
+  width: 100vw;
+  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.jumbotron-bg-video-wrapper:before {
+    content: '';
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0.75); */
+    /* background: rgba(0, 42, 0, 0.75); */
+    background: rgba(255, 255, 255, 0.75);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.jumbotron-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: #000000;
+  /* text-shadow: 0 2px 8px rgba(0,0,0,0.7); */
+}
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+/* ADA Green: #339933 */
+
+.navbar.navbar-dark.bg-dark {
+  background-color: #339933 !important;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 60rem;
+}
+
+.jumbotron.green {
+  background-color: #339933 !important;
+}
+
+.jumbotron.gold {
+  background-color: #ffcc00 !important;
+}
+
+.jumbotron.green h1,
+.jumbotron.green h2,
+.jumbotron.green p {
+  color:#ffffff !important;
+}
+
+.leadin{
+  font-size: 1.2rem;
+  color:#ffffff;
+  background-color: #339933 !important;
+}
+
+.cta.green {
+  background-color: #339933 !important;
+  color:#ffffff !important;
+  padding: 1rem;
+}
+
+.card.simple {
+  background: none;
+  border: none;
+}
+
+.card.simple img {
+  width:100px;
+  display:block;
+  margin: 0 auto;
+}
+.card.simple .card-text {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.callout {
+  background-color: rgba(0, 0, 0, .05);
+}
+
+.callout .box{
+  text-align: center;
+  font-size: 1.2rem;
+  color:#000000;
+  background-color: #ffffff !important;
+  border: 1px solid #339933;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checklist li {
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: .5em;
+}
+
+.checklist li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #339933;
+  font-size: large;
+}
+
+.footer-legal{
+  font-size: 0.8rem;
+  color: #666666;
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .leadin {
+    font-size: 1.5rem;
+  }
+  .callout .box{
+    text-align: left;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

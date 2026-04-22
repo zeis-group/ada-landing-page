@@ -298,7 +298,7 @@
             document.getElementById('healthBtn').classList.toggle('active', pageKey === 'health');
 
             // Update content
-            document.getElementById('pageTitle').textContent = theme.title;
+            document.getElementById('pageTitle').innerHTML = theme.title;
             document.getElementById('formTitle').textContent = theme.formTitle;
             document.getElementById('introText').textContent = theme.intro;
             document.getElementById('expertiseText').textContent = theme.expertise;
